@@ -1,0 +1,27 @@
+{
+  "name": "@vivotech/out",
+  "version": "0.0.1",
+  "description": "Standard output stream",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/vivotech/out.git"
+  },
+  "author": "Damian Martyniak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vivotech/out/issues"
+  },
+  "homepage": "https://github.com/vivotech/out#readme",
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^20.14.2"
+  },
+  "dependencies": {
+    "inquirer": "^9.2.23",
+    "picocolors": "^1.0.1"
+  }
+}
